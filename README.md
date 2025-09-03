@@ -57,21 +57,21 @@ https://<your-username>-medintel.streamlit.app
 📁 Project Structure
 MedIntel/
 │── agents/
-│   ├── analyzer.py      # Analyzes retrieved data
-│   ├── responder.py     # Generates final answers
-│   └── retriever.py     # Loads datasets & builds FAISS vector store
+│ ├── analyzer.py # Analyzes retrieved data
+│ ├── responder.py # Generates final answers
+│ └── retriever.py # Loads datasets & builds FAISS vector store
 │
-│── data/                # Medical datasets (Wikipedia fetched)
-│   ├── asthma.txt
-│   ├── covid-19.txt
-│   ├── diabetes_mellitus.txt
-│   └── eczema.txt
+│── data/ # Medical datasets (Wikipedia fetched)
+│ ├── asthma.txt
+│ ├── covid-19.txt
+│ ├── diabetes_mellitus.txt
+│ └── eczema.txt
 │
-│── app.py               # Streamlit UI
-│── main.py              # CLI entry point
-│── fetch_articles.py    # Script to fetch & save datasets
-│── requirements.txt     # Python dependencies
-│── README.md            # Project documentation
+│── app.py # Streamlit UI
+│── main.py # CLI entry point
+│── fetch_articles.py # Script to fetch & save datasets
+│── requirements.txt # Python dependencies
+│── README.md # Project documentation
 │── .gitignore
 
 🔮 Roadmap
